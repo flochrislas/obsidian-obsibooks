@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-obsibooks",
+  "version": "0.1.0",
+  "description": "Convert EPUB and PDF ebooks to Obsidian markdown via the obsibooks CLI.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": ["obsidian", "plugin", "epub", "pdf", "markdown", "ebook"],
+  "author": "flochrislas",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "latest",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.0"
+  }
+}

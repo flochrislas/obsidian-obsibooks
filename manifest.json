@@ -1,0 +1,10 @@
+{
+  "id": "obsibooks",
+  "name": "Obsibooks",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Convert EPUB and PDF ebooks to Obsidian markdown via the obsibooks CLI.",
+  "author": "flochrislas",
+  "authorUrl": "https://github.com/flochrislas",
+  "isDesktopOnly": true
+}
